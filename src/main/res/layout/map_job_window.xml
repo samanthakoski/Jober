@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/job_info_box">
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/job_color">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/architects_daughter"
+            android:text="@string/job"
+            android:textAlignment="center"
+            android:textColor="@color/color_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/job_info_type"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:text="@string/type"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="@color/color_text"
+            android:textAlignment="textStart"
+            android:textSize="20sp"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/job_info_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/architects_daughter"
+            android:text="@string/pay"
+            android:textAlignment="center"
+            android:textColor="@color/color_text"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/job_info_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:text="@string/description"
+        android:textColor="@color/color_text"
+        android:textAlignment="center"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

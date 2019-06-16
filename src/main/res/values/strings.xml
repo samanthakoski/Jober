@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">PinPin</string>
+    <string name="title_activity_maps">PinPin</string>
+    <string name="pin_time">0</string>
+    <string name="refresh_description">Refreshes the pins on the map</string>
+    <string name="channel_name">Need Discovered</string>
+    <string name="channel_description">Open the app to see the location</string>
+    <string name="jober">jober</string>
+    <string name="sign_in">sign in</string>
+    <string name="password">password</string>
+    <string name="confirmPassword">confirm password</string>
+    <string name="new_user">new user</string>
+    <string name="sign_up">sign up</string>
+    <string name="navigation">navigation</string>
+    <string name="request">request</string>
+    <string name="job">job</string>
+    <string name="necessity">necessity</string>
+    <string name="profile_image">profile image</string>
+    <string name="user_name">name</string>
+    <string name="rating">rating</string>
+    <string name="star">⋆</string>
+    <string name="your_jobs">your jobs</string>
+    <string name="req_a_">request a </string>
+    <string name="request_job">request job</string>
+    <string name="request_necessity">request necessity</string>
+    <string name="title">title</string>
+    <string name="type">type</string>
+    <string name="pay">pay</string>
+    <string name="date">date</string>
+    <string name="exit">exit</string>
+    <string name="requester_desc">requester description</string>
+    <string name="description">description</string>
+    <string name="description_hint">description\n\n\n</string>
+    <string name="set_loc">set location</string>
+    <string name="edit_loc">edit location</string>
+    <string name="complete_job">mark job as completed</string>
+    <string name="complete_nec">mark necessity as completed</string>
+    <string name="post_job">post job</string>
+    <string name="update_job">update job</string>
+    <string name="post_necessity">post necessity</string>
+    <string name="update_necessity">update necessity</string>
+    <string name="accept_job">accept job</string>
+    <string name="accept_necessity">accept necessity</string>
+    <string name="delete_job">delete job</string>
+    <string name="delete_necessity">delete necessity</string>
+    <string name="edit_job">edit job</string>
+    <string name="edit_necessity">edit necessity</string>
+    <string name="select_loc">select location</string>
+    <string name="job_details">job details</string>
+    <string name="nec_details">necessity details</string>
+    <string name="edit_prof">edit profile</string>
+    <string name="email">email</string>
+    <string name="sign_out">sign out</string>
+    <string name="update_email">update email</string>
+    <string name="update_name">update name</string>
+    <string name="requested">requested</string>
+    <string name="accepted">accepted</string>
+    <string name="completed">completed</string>
+    <string name="your_necs">your necessities</string>
+    <string name="no_job_acceptor">No one has accepted this job yet.</string>
+    <string name="no_nec_acceptor">No one has accepted this necessity yet.</string>
+
+    <string-array name="job_types">
+        <item>Manual Labor</item>
+        <item>Virtual</item>
+        <item>Task</item>
+        <item>Errand</item>
+    </string-array>
+    <string-array name="nec_types">
+        <item>Food</item>
+        <item>Money</item>
+        <item>FirstAid</item>
+        <item>Ride</item>
+    </string-array>
+</resources>

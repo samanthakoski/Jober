@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:padding="10sp"
+        android:background="@color/accent">
+
+        <TextView
+            android:id="@+id/req_a_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/architects_daughter"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:text="@string/req_a_"
+            android:textColor="@color/color_text"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10sp"
+            android:layout_toEndOf="@+id/req_a_tv"
+            android:background="@color/color_text" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/request_job_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:fontFamily="@font/architects_daughter"
+        android:padding="5sp"
+        android:text="@string/job"
+        android:textAlignment="center"
+        android:textColor="@color/color_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/request_necessity_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:fontFamily="@font/architects_daughter"
+        android:padding="5sp"
+        android:text="@string/necessity"
+        android:textAlignment="center"
+        android:textColor="@color/color_text"
+        android:textSize="18sp" />
+
+</LinearLayout>
